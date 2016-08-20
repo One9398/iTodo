@@ -4,13 +4,14 @@
   "description": "iTodo Web Application used by MEAN",
   "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",    
+    "production": "forever src/app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/One9398/iTodo.git"
   },
-  "author": "",
+  "author": "One9398",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/One9398/iTodo/issues"
@@ -20,6 +21,7 @@
     "angular": "^1.5.8",
     "body-parser": "1.15.2",
     "express": "4.14.0",
+    "forever": "^0.15.2",
     "mongoose": "4.5.9"
   },
   "devDependencies": {

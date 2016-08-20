@@ -6,11 +6,12 @@ var parser = require("body-parser");
 require("./data.js");
 require("./seed.js");
 var app = express();
+app.set("port", process.env.PORT || 3000);
 app.use(parser.json());
 app.use("/", express.static('public'));
 app.use('/api', router);
 
-app.listen(3000, function () {
+app.listen(app.get("port"), function () {
 	// body...
-	console.log('The service is on 3000 port');
+	console.log('The service is on Port' + app.get("port"));
 })
