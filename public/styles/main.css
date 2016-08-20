@@ -44,7 +44,7 @@ a {
     .list .item.editing-item .actions {
       margin-top: 17px; }
   .list .edited label:after {
-    content: " edited";
+    content: "未保存";
     text-transform: uppercase;
     color: #a7b9c4;
     font-size: 14px;

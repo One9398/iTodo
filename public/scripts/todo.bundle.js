@@ -125,7 +125,7 @@ webpackJsonp([0],[
 	  });
 
 	  $scope.addTodo = function() {
-	    $scope.todos.unshift({name: "This is a new todo.",
+	    $scope.todos.unshift({name: "未命名",
 	                      completed: false});
 	  };
 
