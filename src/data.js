@@ -7,7 +7,7 @@ mongoose.connect("mongodb://localhost/iTodo", function (error) {
 		console.log('connect fail to database !');
 		console.error(error);
 	} else {
-		console.log('connect successfully !');
+		console.log('connect to database successfully !');
 
 	}
 })
